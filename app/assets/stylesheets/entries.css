@@ -1,0 +1,12 @@
+h1,h2,body,p{
+  font-family: Calibri;
+}
+
+h2,a{
+  color: crimson;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+}
+h5{
+  color: #5a87ad;
+}

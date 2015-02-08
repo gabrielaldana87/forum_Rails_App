@@ -1,0 +1,9 @@
+<h2><%= @entry.title %></h2>
+    <%= @entry.content %>
+<h6><%= @entry.created_at %></h6>
+<br /><br />
+<%= link_to 'back', entries_path %>
+<br /><br />
+<%= link_to 'delete', @entry, method: :delete%>
+<br /><br />
+<%= link_to 'edit', edit_entry_path(@entry) %>

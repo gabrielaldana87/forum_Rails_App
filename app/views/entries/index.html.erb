@@ -1,0 +1,8 @@
+<h1>Welcome to my forum!</h1>
+<% @entries.each do |entry| %>
+<h2><%= link_to entry.title, entry %></h2>
+<%= entry.content %>
+<h5><%= entry.created_at %></h5>
+<% end %>
+<br /><br />
+<%= link_to 'Create a new entry!', new_entry_path %>
